@@ -36,8 +36,8 @@ flowchart LR
 * **`mesa_sonora.pd`**: Patch modular de PlugData / Pure Data con recepción UDP, ruteo de señales, envolventes antirruido y rack de efectos DSP.
 * **`hand_landmarker.task`**: Modelo de red neuronal de MediaPipe optimizado para detección y tracking de puntos clave de la mano.
 * **`sonidos/`**: Banco de audios estéreo en formato `.wav`:
-  * `paisaje-de-aves.wav`: **Estado 1 (Mano Abierta)** — Biofonía diurna, texturas vivaces y agudas. (Vol: 135%, Pan: Centro).
-  * `paisaje-de-sapos.wav`: **Estado 2 (Puño Cerrado)** — Biofonía nocturna, frecuencias medias-bajas rítmicas. (Vol: 160%, Pan: Centro).
+  * `paisaje-de-aves.wav`: **Estado 1 (Mano Abierta)** — Biofonía diurna, texturas vivaces y agudas. Con **pausa y reanudación exacta** desde el segundo donde quedó + loop continuo. (Vol: 135%, Pan: Centro).
+  * `paisaje-de-sapos.wav`: **Estado 2 (Puño Cerrado)** — Biofonía nocturna, frecuencias medias-bajas rítmicas. Con **pausa y reanudación exacta** desde el segundo donde quedó + loop continuo. (Vol: 160%, Pan: Centro).
   * `paisaje-de-mar.wav`: **Pista base constante** — Geofonía envolvente. Fade-In al interactuar, 10s de cola tras retirar la mano y Fade-Out gradual. (Vol: 35%, Pan: Centro).
 * **`diagramas/`**:
   * `diagrama_1_python.png`: Diagrama de flujo de visión artificial, interfaz gráfica y proyección.
