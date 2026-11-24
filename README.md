@@ -76,11 +76,6 @@ flowchart LR
 * **`diagramas/`**:
   * `diagrama_1_python.png`: Diagrama de flujo de visión artificial, interfaz gráfica y proyección.
   * `diagrama_2_plugdata.png`: Diagrama de ruteo de audio, canales y DSP en PlugData.
-  * `diagrama_2_pure_data.png`: Copia de referencia del ruteo en Pure Data.
-* **Documentación Técnica**:
-  * `CARPETA_TECNICA_SONIDO_3.md`: Fundamentación estética (Schafer, Schaeffer, Reactable) y memoria técnica.
-  * `GUION_VIDEOS_ETAPA_3.md`: Guion y pauta paso a paso para registro y demostración en video.
-  * `PROYECTO_MESA_SONORA.md`: Documento de diseño y especificaciones técnicas.
 
 ---
 
