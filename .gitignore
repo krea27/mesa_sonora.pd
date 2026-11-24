@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Copias de respaldo y archivos temporales
+*.bak
+*.tmp
+*.log
+
+# Archivos de analisis de Ableton Live
+*.asd
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
